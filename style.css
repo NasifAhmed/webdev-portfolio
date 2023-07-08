@@ -15,6 +15,16 @@
   color: white;
   border-radius: 5px;
   background: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+}
+
+header {
+  background: #fff8f3;
 }
 
 nav button {
@@ -25,8 +35,8 @@ nav button {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 50px;
+  justify-content: space-between;
+  padding-top: 50px;
 }
 
 nav ul {
@@ -39,10 +49,6 @@ nav ul {
   font-family: Open Sans;
   font-size: 20px;
   font-weight: 400;
-}
-
-.menu-section button:hover {
-  cursor: pointer;
 }
 
 nav li,
@@ -61,4 +67,36 @@ nav a {
   color: #181818;
   font-size: 45px;
   font-weight: 800;
+  padding-left: 200px;
+}
+
+.about-section {
+  padding: 30px 30px 30px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-section h2 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.about-section h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.about-section p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.profile-pic {
+  width: 584px;
+  height: 676px;
 }
