@@ -178,7 +178,6 @@ span {
 
 .work-section p {
   margin: 30px 0px 0px;
-  padding: ;
 }
 
 .tech {
@@ -213,4 +212,62 @@ span {
   font-weight: 400;
   line-height: 28px;
   text-align: left;
+}
+
+.resume {
+  margin: 130px 200px 50px;
+}
+
+.resume .main-title {
+    margin-bottom: 100px;
+}
+
+.resume-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.resume-content div {
+  display: block;
+}
+
+.resume-content h4 {
+  margin-bottom: 30px;
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume-content h5 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.resume-content h6 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.resume-content p {
+  max-width: 511px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+hr {
+  width: 558px;
+  background: #d1d1d1;
+  margin-bottom: 30px;
+}
+
+.resume .btn-primary {
+    margin-top: 20px;
 }
