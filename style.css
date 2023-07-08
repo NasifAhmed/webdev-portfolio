@@ -19,15 +19,28 @@
   font-weight: 700;
 }
 
-.btn-primary:hover {
+.btn-primary-holo {
+  text-decoration: none;
+  border: none;
+  padding: 18px 35px;
+  color: #fd6e0a;
+  background: white;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+}
+
+.btn-primary:hover,
+.btn-primary-holo:hover {
   cursor: pointer;
 }
 
 header {
   background: #fff8f3;
-  background-image: url("assets/header_bg.png");
+  background-image: url("assets/header_bg.png"), url("assets/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 
 nav button {
@@ -324,5 +337,5 @@ footer div p {
 }
 
 .footer-icons img {
-    margin-right: 24px;
+  margin-right: 24px;
 }
